@@ -1,4 +1,3 @@
-# Occurrence_of_subString
 [![Build Status](https://travis-ci.com/mKimp/occurence_of_subString.svg?branch=master)](https://travis-ci.com/mKimp/occurence_of_subString)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]()
 
