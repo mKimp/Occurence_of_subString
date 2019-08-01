@@ -3,13 +3,16 @@ import java.util.regex.Pattern;
 
 public class occurence_of_subString {
     public static void main(String[] args) {
+
         count_subString("bc","bcdefbcbebc|abcdebcfgsdf|cbdbesfbcy|1bcdef232423bc32");
     }
 
     public static void count_subString(String pattern, String blobs){
         string_manipulate answer = new string_manipulate(pattern, blobs);
         String final_answer = answer.split_String();
-        System.out.println(final_answer);
+
+        System.out.println("Pattern is '" + pattern + "'. Substrings are '" +  blobs + "'." + '\n' + "Occurrence of pattern appear in each subString and its total is: "
+                +  final_answer);
     }
     static class string_manipulate {
         String pattern;
